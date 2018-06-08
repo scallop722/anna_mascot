@@ -1,5 +1,4 @@
-'use strict';
-const {app, BrowserWindow, Menu, Tray, nativeImage, globalShortcut} = require('electron');
+const {app, BrowserWindow} = require('electron');
 
 let mainWindow = null;
 app.on('ready', () => {
